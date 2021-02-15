@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/cr7"
+    tools:context=".RegistrationForm">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:orientation="vertical">
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:focusable="true"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/transparenttext"
+
+                android:textStyle="italic"
+                android:layout_marginTop="10dp"
+                android:hint="Full Name" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:focusable="true"
+                android:layout_height="match_parent">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/transparenttext"
+
+                    android:textStyle="italic"
+                    android:layout_marginTop="5dp"
+                    android:hint="Email" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:focusable="true"
+                    android:layout_height="match_parent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/transparenttext"
+
+                        android:textStyle="italic"
+                        android:hint="State" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:focusable="true"
+                        android:layout_height="match_parent">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:background="@drawable/transparenttext"
+
+                            android:layout_marginTop="5dp"
+                            android:textStyle="italic"
+                            android:layout_height="wrap_content"
+                            android:hint="District" />
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:focusable="true"
+                            android:layout_height="match_parent">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/transparenttext"
+                               android:layout_marginTop="5dp"
+                                android:textStyle="italic"
+                                android:hint="Pin Code" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:focusable="true"
+                            android:layout_height="match_parent">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="match_parent"
+                                android:layout_marginTop="5dp"
+                                android:background="@drawable/transparenttext"
+                                android:textStyle="italic"
+                                android:layout_height="wrap_content"
+                                android:hint="Password" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:focusable="true"
+                            android:layout_height="match_parent">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/transparenttext"
+                                android:textStyle="italic"
+                                android:layout_marginTop="5dp"
+                                android:hint="Confirm Password" />
+                        </com.google.android.material.textfield.TextInputLayout>
+                    </com.google.android.material.textfield.TextInputLayout>
+                </com.google.android.material.textfield.TextInputLayout>
+            </com.google.android.material.textfield.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gender"
+                android:background="@drawable/transparenttext"
+                android:textSize="25sp"
+                android:textStyle="bold"
+
+
+                />
+            <RadioButton
+                android:layout_width="95dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/transparenttext"
+                android:textSize="15sp"
+                android:text="Male"/>
+            <RadioButton
+                android:layout_width="95dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/transparenttext"
+                android:textSize="15sp"
+                android:text="Female"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonshape"
+                android:text="SUBMIT"
+                android:textSize="22sp"
+                android:layout_marginBottom="35dp"
+                android:layout_marginTop="20dp"
+                />
+
+
+
+
+
+        </RadioGroup>
+    </LinearLayout>
+
+</ScrollView>
